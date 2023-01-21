@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <title>Social Media Team</title>
+</head>
+
+<body>
+
+    <!--Navbar Section-->
+    <div id="desktopNavBar">
+        <div class="navbar fixed-top bg-body-tertiary position-relative>
+    <nav class= " nav-bar" id="navbar" style="background-color:#fffffe;">
+            <ul class="nav nav-pills mb-1" id="pills-tab" role="tablist" class="menu">
+                <li class="nav-item px-1" role="presentation" class="nav-list">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true"><a href="index.html">Home</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab teamTab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false"><a href="team.html">Our Team</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab teamBtn" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="groups.html">Groups</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="channels.html">Channels</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="kpi.html">KPI</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="sample-answers.html">Sample Answers</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="https://app.eclincher.com/ec/inbox/inbox"
+                            target="_blank">Eclinhcer</a></button>
+                </li>
+                <li class="nav-item px-1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false"><a href="duty.html">Duty Charts</a></button>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div id="mobileNavBar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mobileList">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="team.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="groups.html">Groups</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="channels.html">Channels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="kpi.html">KPIs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="sample-answers.html">Sample Answers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://app.eclincher.com/ec/inbox/inbox" target="_blank">Eclincher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="duty.html">Duty Charts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Slider Section-->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/img/slide1.jpg" class="d-block w-100" alt="image1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="assets/img/slide2.jpg" class="d-block w-100" alt="image2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slide3.jpg" class="d-block w-100" alt="image3">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Members Section-->
+    <section>
+        <div class="members-wrapper">
+            <div>
+                <h2 class="ourteam-title"><strong>Our team members</strong>
+                    <br>Meet our team
+            </div>
+
+            <div class="featured-grid">
+                <div class="features">
+                    <div class="feature-title">The Manager</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/ranmali.jpg"></div>
+                    <div class="member-name">Mrs. Ranmali Fernando</div>
+                    <div class="member-title">Senior executive assistant manager</div>
+                    <div class="member-email">ranmali@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Supervisor</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/sujanthi.jpg"></div>
+                    <div class="member-name">Mrs. Sujanthi Jayarathne</div>
+                    <div class="member-title">assistant manager</div>
+                    <div class="member-email">sujanthi@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/piyumi.jpg"></div>
+                    <div class="member-name">Mrs. Yalinka Wilabada</div>
+                    <div class="member-title">Customer Care Officer</div>
+                    <div class="member-email">piyumi@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/faz.jpg"></div>
+                    <div class="member-name">Ms. Fazna Manzil</div>
+                    <div class="member-title">Customer Care Officer</div>
+                    <div class="member-email">faznamanzil@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/kamoshi.jpg"></div>
+                    <div class="member-name">Ms. Kamoshi Premadasa</div>
+                    <div class="member-title">Customer Care Officer</div>
+                    <div class="member-email">faznamanzil@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/lahiru.jpg"></div>
+                    <div class="member-name">Mr. Lahiru Pasan</div>
+                    <div class="member-title">Customer Care Officer</div>
+                    <div class="member-email">pasanp@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/sandunika.jpg"></div>
+                    <div class="member-name">Mrs. Sandunika</div>
+                    <div class="member-title">Sales Assistant</div>
+                    <div class="member-email">sandunikaw@slt.com.lk</div>
+                </div>
+                <div class="features">
+                    <div class="feature-title">Team Member</div>
+                    <div class="feature-icon"><img class="member-pic" src="assets/img/kusal.jpg"></div>
+                    <div class="member-name">Mr. Kusal Amarasinghe</div>
+                    <div class="member-title">Sales Assistant</div>
+                    <div class="member-email">kusal@slt.com.lk</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Groups Section-->
+    <section>
+        <div class="groups-wrapper">
+            <h2 class="group-title"><strong>Related Groups</strong> </h2>
+            <div class="buttons">
+                <button type="button" class="btn btn-outline-success wBtn" id="wBtn1">SLT Social Media</button>
+                <button type="button" class="btn btn-outline-success wBtn" id="wBtn2">SRM Attendance</button>
+                <button type="button" class="btn btn-outline-success wBtn" id="wBtn3">SRM Suggestions</button>
+                <button type="button" class="btn btn-outline-success wBtn" id="wBtn4">CC & DM Teams</button>
+                <button type="button" class="btn btn-outline-success wBtn" id="wBtn5">SRM CC Group</button>
+            </div>
+            <div class="note" id="note">
+                <h3 class="note-description">Sorry! <br>Please contact the authority to get the permission to join to
+                    this WhatsApp Group.</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!--KPI Section-->
+    <section>
+        <div class=" --bs-dark kpi-wrapper">
+
+            <div>
+                <h2 class="kpi-title"><strong>Targets and Objectives of the Team</strong>
+                    <br>KPIs
+            </div>
+            <div class="kpi-list">
+                <ul>
+                    <li>Quick response to customers in Social Media</li>
+                    <li>Engagement with the customers in Social Channels</li>
+                    <li>High Quality of Service </li>
+                    <li>Community Page engagement</li>
+                    <li>Continuous learning </li>
+                    <li>Report Submission</li>
+                    <li>Additional Contribution to business</li>
+                    <li>Contribution to service level </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Channels Section-->
+    <section>
+        <div class="channels-wrapper">
+            <div>
+                <h2 class="channel-title"><strong>Our Channels</strong>
+            </div>
+            <div class="achievements">
+                <div class="container text-center channel-grid">
+
+                    <div class="sm-icons">
+                        <div class="row">
+                            <div class="col">
+
+                                <div class="youtube">
+                                    <div class="sm-label"><label for="youtube" class="smlbl">YouTube</label></div>
+                                    <img class="yt-logo" src="assets/img/youtube-logo.png">
+                                    <div class="sub-count">Over 62K</div>
+                                    <div>
+                                        <p class="sub-count">Subscribers</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="facebook">
+                                    <div class="sm-label"><label for="facebook" class="smlbl">Facebook</label></div>
+                                    <img class="fb-logo" src="assets/img/fb-logo.png">
+                                    <div class="sub-count">Over 3.2M</div>
+                                    <div>
+                                        <p class="sub-count">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="tiktok">
+                                    <div class="sm-label"><label for="tiktok" class="smlbl">Tiktok</label></div>
+                                    <img class="tk-logo" src="assets/img/tiktok-logo.png">
+                                    <div class="sub-count">Over 300</div>
+                                    <div>
+                                        <p class="sub-count">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="instagram">
+                                    <div class="sm-label"><label for="instagram" class="smlbl">Instagram</label></div>
+                                    <img class="in-logo" src="assets/img/insta-logo.png">
+                                    <div class="sub-count">Over 42K</div>
+                                    <div>
+                                        <p class="sub-count">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="twitter">
+                                    <div class="sm-label"><label for="twitter" class="smlbl">Twitter</label></div>
+                                    <img class="tw-logo" src="assets/img/twitter-logo.png">
+                                    <div class="sub-count">Over 225K</div>
+                                    <div>
+                                        <p class="sub-count">Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--Footer-->
+        <section>
+            <div class="footer-wrapper">
+                <p class="footer-text">Created by kusal amarasinghe</p>
+            </div>
+        </section>
+
+
+        <!--End of HTML-->
+
+        <script type="text/javascript">
+            
+            $('#wBtn1').click (function(){
+                $('#note').css ("display", "none");
+            });
+        </script>
+
+</body>
+
+</html>
