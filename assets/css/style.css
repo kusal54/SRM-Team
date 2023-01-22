@@ -24,7 +24,6 @@ body {
     padding: 2px;
 }
 
-
 #mobileNavBar ul li a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -38,7 +37,7 @@ body {
 }
 
 /*Team Bar----------------------------------------------------------*/
-.ourteam-title {
+.ourTeam-title {
     font-family: sans-serif;
     text-align: center;
     color: #ffffff;
@@ -150,7 +149,7 @@ body {
     text-align: center;
     color: #462446;
     background-size: 20px 50px;
-    width: 40%;
+    width: 80%;
     margin: auto;
     padding: 20px;
     font-size: 20px;
@@ -179,6 +178,7 @@ body {
     width: 100%;
     background-color: #ffffff;
     height: 300px;
+    position: relative;
 }
 
 
@@ -261,6 +261,7 @@ body {
 }
 
 .channels-wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,25 +288,26 @@ body {
 }
 
 .yt-logo {
-    height: 100px;
+    height: 80px;
+    padding: 20px;
 }
 
 .fb-logo {
-    height: 100px;
+    height: 80px;
     padding: 20px;
 }
 
 .tk-logo {
-    height: 100px;
+    height: 80px;
 }
 
 .in-logo {
-    height: 100px;
+    height: 80px;
     padding: 20px;
 }
 
 .tw-logo {
-    height: 100px;
+    height: 80px;
     padding: 20px;
 }
 
@@ -330,7 +332,7 @@ body {
     align-items: center;
 }
 
-.smlbl {
+.sm-label {
     font-size: 15px;
     color: #462446;
     font-weight: bold;
@@ -374,7 +376,7 @@ body {
 }
 
 
-@media (max-width:900px) {
+@media (max-width:1080px) {
     #desktopNavBar {
         display: none;
     }
@@ -382,7 +384,7 @@ body {
 
     #mobileNavBar {
         display: block;
-}
+    }
 
 @media (max-width:1080px) {
     .featured-grid {
@@ -390,8 +392,130 @@ body {
     }
 }
 
-@media (max-width:768px) {
-    .featured-grid {
-        grid-template-columns: 50% 50%;
+@media (max-width:1080px) {
+    .channels-wrapper{
+        height: 550px;
+    }
+
+    .ourTeam-title {
+        margin: auto;
+        padding: 10px;
+        font-size: 10px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        border-bottom: 1px solid #ffffff;
+        position: relative;
+    }
+    
+    .featured-grid .features {
+        height: 300px;
+        width: 230px;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .feature-title {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 50px;
+    }
+    
+    .member-pic {
+        height: 80px;
+        display: inline;
+        margin-top: -30px;
+        border: 4px #ffc153 solid;
+    }
+    
+    .member-pic:hover {
+        height: 96px;
+    }
+    
+    .member-name {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .member-title {
+        font-size: 12px;
+    }
+    
+    .member-email {
+        font-size: 11px;
+        padding: 5px;
+    }
+    
+    .group-title{
+        font-size: 15px;
+    }
+    
+    .channel-title{
+        font-size: 15px;
+    }
+
+    .kpi-title{
+        font-size: 15px;
+    }
+
+    .ourTeam-title{
+        font-size: 15px;
+    }
+
+    .channel-title {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        border-bottom: 1px solid #462446;
+        font-size: 15px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .channels-wrapper {
+        width: 90%;
+        background-color: #ffffff;
+        height: 300px;
+    }
+
+    .yt-logo {
+        height: 80px;
+        padding: 20px;
+    }
+    
+    .fb-logo {
+        height: 80px;
+        padding: 20px;
+    }
+    
+    .tk-logo {
+        height: 80px;
+    }
+    
+    .in-logo {
+        height: 80px;
+        padding: 20px;
+    }
+    
+    .tw-logo {
+        height: 80px;
+        padding: 20px;
+    }
+
+    .sm-label {
+        font-size: 12px;
+    }
+    
+    .sub-count{
+        font-family: sans-serif;
+        font-size: 12px;
+        padding: 5px;
+    }
+    
+    .sub-count:hover{
+        font-size: 13px;
     }
 }
