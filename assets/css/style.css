@@ -161,24 +161,17 @@ body {
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0;
-    margin-right: auto;
-    margin-left: auto;
+    margin-bottom: 10px;
 
 }
 
 .groups-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
-    height: 300px;
+    height: 65px;
     position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -194,6 +187,7 @@ body {
 .note-description{
     font-size: 14px;
     text-align: center;
+    color: red;
 }
 
 
@@ -403,25 +397,21 @@ body {
         font-size: 10px;
         margin-bottom: 40px;
         margin-top: 30px;
-        border-bottom: 1px solid #ffffff;
-        position: relative;
     }
     
     .featured-grid .features {
-        height: 300px;
-        width: 230px;
+        height: 285px;
+        width: 200px;
         text-align: center;
         padding: 10px;
         margin-bottom: 20px;
     }
     
     .feature-title {
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
         color: #ffffff;
-        padding: 50px;
+        padding: 45px;
     }
     
     .member-pic {
@@ -441,18 +431,14 @@ body {
     }
     
     .member-title {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .member-email {
-        font-size: 11px;
+        font-size: 10px;
         padding: 5px;
     }
-    
-    .group-title{
-        font-size: 15px;
-    }
-    
+
     .channel-title{
         font-size: 15px;
     }
@@ -518,4 +504,60 @@ body {
     .sub-count:hover{
         font-size: 13px;
     }
+
+
+
+
+    .group-title {
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: 5px;
+    
+    }
+    
+    .groups-wrapper {
+        margin: auto;
+        width: 90%;
+        background-color: #ffffff;
+        height: 60px;
+    }
+    
+    
+    .wBtn {
+        height: 60px;
+        width: 100px;
+        margin: 10px;
+    }
+    
+    .note{
+        margin-top: 15px;
+    }
+    
+    .note-description{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    .kpi-wrapper{
+        height: 450px;
+    }
+
+    .kpi-list li {
+        font-size: 12px;
+        list-style-type: none;
+        padding: 5px;
+        margin: auto;
+    }
+    
 }
