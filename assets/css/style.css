@@ -153,8 +153,8 @@ body {
     margin: auto;
     font-size: 20px;
     text-transform: capitalize;
-    margin-bottom: 40px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     border-bottom: 1px solid #462446;
     position: relative;
 }
@@ -330,6 +330,7 @@ body {
     color: #462446;
     font-weight: bold;
     font-family: sans-serif;
+    margin-top: 20px;
 }
 
 .achievements {
@@ -339,11 +340,10 @@ body {
 .sub-count {
     font-family: sans-serif;
     font-size: 14px;
-    padding: 5px;
 }
 
 .sub-count:hover {
-    font-size: 15px;
+    font-weight: bold;
 }
 
 
