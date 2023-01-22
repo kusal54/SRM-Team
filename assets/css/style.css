@@ -400,34 +400,34 @@ body {
     }
     
     .featured-grid .features {
-        height: 270px;
-        width: 180px;
+        height: 200px;
+        width: 150px;
         text-align: center;
         padding: 5px;
         margin-bottom: 20px;
     }
     
     .feature-title {
-        font-size: 10px;
+        font-size: 8px;
         text-transform: uppercase;
         color: #ffffff;
-        padding: 45px;
+        padding: 35px;
     }
     
     .member-pic {
-        height: 70px;
+        height: 60px;
         display: inline;
         margin-top: -30px;
         border: 4px #ffc153 solid;
     }
     
     .member-pic:hover {
-        height: 85px;
+        height: 70px;
     }
     
     .member-name {
-        font-size: 12px;
-        padding: 5px;
+        font-size: 10px;
+        padding: 1px;
     }
     
     .member-title {
@@ -464,7 +464,7 @@ body {
     .channels-wrapper {
         width: 90%;
         background-color: #ffffff;
-        height: 300px;
+        height: 420px;
     }
 
     .yt-logo {
@@ -534,7 +534,7 @@ body {
     
     .wBtn {
         height: 60px;
-        width: 100px;
+        width: 120px;
         margin: 10px;
     }
     
