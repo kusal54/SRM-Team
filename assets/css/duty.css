@@ -12,12 +12,12 @@ body {
     align-items: center;
 }
 
-#desktopNavBar ul{
+#desktopNavBar ul {
     justify-content: center;
     margin: auto;
 }
 
-#desktopNavBar ul li a{
+#desktopNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #462446;
@@ -27,7 +27,7 @@ body {
 }
 
 
-#mobileNavBar ul li a{
+#mobileNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;

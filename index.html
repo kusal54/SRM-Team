@@ -56,13 +56,13 @@
                 <li class="nav-item px-1" role="presentation">
                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false"><a href="https://app.eclincher.com/ec/inbox/inbox"
-                            target="_blank">Eclinhcer</a></button>
+                        aria-selected="false"><a href="duty.html">Duty Charts</a></button>
                 </li>
                 <li class="nav-item px-1" role="presentation">
                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false"><a href="duty.html">Duty Charts</a></button>
+                        aria-selected="false"><a href="https://app.eclincher.com/ec/inbox/inbox"
+                            target="_blank">Eclincher</a></button>
                 </li>
             </ul>
             </nav>
@@ -100,11 +100,11 @@
                             <a class="nav-link active" aria-current="page" href="sample-answers.html">Sample Answers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="https://app.eclincher.com/ec/inbox/inbox" target="_blank">Eclincher</a>
+                            <a class="nav-link active" aria-current="page" href="duty.html">Duty Charts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="duty.html">Duty Charts</a>
+                            <a class="nav-link active" aria-current="page"
+                                href="https://app.eclincher.com/ec/inbox/inbox" target="_blank">Eclincher</a>
                         </li>
                     </ul>
                 </div>
@@ -225,32 +225,32 @@
     <section>
         <div class="groups-wrapper"></div>
         <h2 class="group-title"><strong>Related Groups</strong> </h2>
-    <div class="container text-center buttons">
-        <div class="row">
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn1">SLT Social Media</button>          </div>
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn2">SRM Attendance</button>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn3">SRM Suggestions</button>          </div>
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn3">SRM Suggestions</button>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn4">CC & DM Teams</button>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-outline-success wBtn" id="wBtn5">SRM CC Group</button>
-          </div>
-        </div>
-      </div>
-    
-        
-            <div class="note" id="note">
-                <h3 class="note-description">Sorry! <br>Please contact the authority to get the permission to join to
-                    this WhatsApp Group.</h3>
+        <div class="container text-center buttons">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-outline-success wBtn" id="wBtn1">SLT Social Media</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-success wBtn" id="wBtn2">SRM Attendance</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-success wBtn" id="wBtn3">SRM Suggestions</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-success wBtn" id="wBtn4">CC & DM Teams</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-success wBtn" id="wBtn5">SRM CC Group</button>
+                </div>
             </div>
+        </div>
+
+
+        <div class="note" id="note">
+            <h3 class="note-description">Sorry! <br>You are not allowed to access this.<br>Please contact the authority
+                to get the permission to join to
+                this WhatsApp Group.</h3>
+        </div>
         </div>
     </section>
 
@@ -367,9 +367,37 @@
         <!--End of HTML-->
 
         <script type="text/javascript">
-            
-            $('#wBtn1').click (function(){
-                $('#note').css ("display", "none");
+
+            $('#wBtn1').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn2').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn2').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn3').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn4').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn5').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#wBtn6').click(function () {
+                $('#note').css("display", "block");
+            });
+
+            $('#note').click(function () {
+                $('#note').fadeOut()
             });
         </script>
 

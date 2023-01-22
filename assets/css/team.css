@@ -10,7 +10,7 @@ body {
 }
 
 
-#desktopNavBar ul li a{
+#desktopNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #462446;
@@ -20,7 +20,7 @@ body {
 }
 
 
-#mobileNavBar ul li a{
+#mobileNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;
@@ -145,7 +145,6 @@ body {
     }
 }
 
-    #mobileNavBar {
-        display: block;
+#mobileNavBar {
+    display: block;
 }
-

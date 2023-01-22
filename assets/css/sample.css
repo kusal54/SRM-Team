@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     width: 100%;
     margin: auto;
@@ -12,12 +12,12 @@ body{
     align-items: center;
 }
 
-#desktopNavBar ul{
+#desktopNavBar ul {
     justify-content: center;
     margin: auto;
 }
 
-#desktopNavBar ul li a{
+#desktopNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #462446;
@@ -28,7 +28,7 @@ body{
 }
 
 
-#mobileNavBar ul li a{
+#mobileNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;
@@ -38,7 +38,7 @@ body{
 /*Table----------------------------------------------------------*/
 
 
-#table-wrapper{
+#table-wrapper {
     width: 90%;
     margin: auto;
     margin-top: 50px;
@@ -56,45 +56,45 @@ td {
 }
 
 
-.table tr{
+.table tr {
     padding: 5px 5px;
 }
 
 
-.left-heading{
+.left-heading {
     font-size: 14px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 1px;
     background-color: rgb(1, 2, 73, 0.26);
     padding: 10px;
-    border:1px solid #462446;
+    border: 1px solid #462446;
 }
 
-.right-heading{
+.right-heading {
     font-size: 14px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 1px;
     background-color: rgba(0, 190, 16, 0.26);
     padding: 10px;
-    border:1px solid #462446;
+    border: 1px solid #462446;
 }
 
-.left-side{
+.left-side {
     width: 20%;
     font-size: 12px;
     text-align: center;
     font-weight: bold;
-    border:1px solid #462446;
+    border: 1px solid #462446;
 }
 
-.right-side{
+.right-side {
     width: 80%;
     font-size: 12px;
     height: 20px;
     text-align: left;
-    border:1px solid #462446;
+    border: 1px solid #462446;
 }
 
 
@@ -106,7 +106,6 @@ td {
     }
 }
 
-    #mobileNavBar {
-        display: block;
+#mobileNavBar {
+    display: block;
 }
-

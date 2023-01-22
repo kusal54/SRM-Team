@@ -9,12 +9,12 @@ body {
     align-items: center;
 }
 
-#desktopNavBar ul{
+#desktopNavBar ul {
     justify-content: center;
     margin: auto;
 }
 
-#desktopNavBar ul li a{
+#desktopNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -24,7 +24,7 @@ body {
     padding: 2px;
 }
 
-#mobileNavBar ul li a{
+#mobileNavBar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;
@@ -151,27 +151,25 @@ body {
     background-size: 20px 50px;
     width: 80%;
     margin: auto;
-    padding: 20px;
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 40px;
-    margin-top: -30px;
+    margin-top: 10px;
     border-bottom: 1px solid #462446;
     position: relative;
 }
 
 .buttons {
-    margin-bottom: 10px;
-
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .groups-wrapper {
     width: 80%;
     background-color: #ffffff;
-    height: 65px;
+    height: 75px;
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -180,11 +178,12 @@ body {
     width: 150px;
 }
 
-.note{
-    padding: 30px;
+.note {
+    padding: 20px;
+    display: none;
 }
 
-.note-description{
+.note-description {
     font-size: 14px;
     text-align: center;
     color: red;
@@ -265,7 +264,7 @@ body {
     height: 350px;
 }
 
-.channel-grid{
+.channel-grid {
     width: 80%;
     margin: auto;
 }
@@ -333,17 +332,17 @@ body {
     font-family: sans-serif;
 }
 
-.achievements{
+.achievements {
     position: relative;
 }
 
-.sub-count{
+.sub-count {
     font-family: sans-serif;
     font-size: 14px;
     padding: 5px;
 }
 
-.sub-count:hover{
+.sub-count:hover {
     font-size: 15px;
 }
 
@@ -376,9 +375,9 @@ body {
     }
 }
 
-    #mobileNavBar {
-        display: block;
-    }
+#mobileNavBar {
+    display: block;
+}
 
 @media (max-width:1080px) {
     .featured-grid {
@@ -387,7 +386,7 @@ body {
 }
 
 @media (max-width:1080px) {
-    .channels-wrapper{
+    .channels-wrapper {
         height: 550px;
     }
 
@@ -398,7 +397,7 @@ body {
         margin-bottom: 40px;
         margin-top: 30px;
     }
-    
+
     .featured-grid .features {
         height: 200px;
         width: 150px;
@@ -406,48 +405,49 @@ body {
         padding: 5px;
         margin-bottom: 20px;
     }
-    
+
     .feature-title {
         font-size: 8px;
         text-transform: uppercase;
         color: #ffffff;
         padding: 35px;
     }
-    
+
     .member-pic {
         height: 60px;
         display: inline;
         margin-top: -30px;
         border: 4px #ffc153 solid;
     }
-    
+
     .member-pic:hover {
         height: 70px;
     }
-    
+
     .member-name {
         font-size: 10px;
         padding: 1px;
     }
-    
+
     .member-title {
         font-size: 8px;
     }
-    
+
     .member-email {
         font-size: 10px;
         padding: 5px;
     }
 
-    .channel-title{
+    .channel-title {
         font-size: 15px;
     }
 
-    .kpi-title{
+    .kpi-title {
         font-size: 15px;
+        width: 80%;
     }
 
-    .ourTeam-title{
+    .ourTeam-title {
         font-size: 15px;
     }
 
@@ -460,7 +460,7 @@ body {
         margin-bottom: 30px;
         margin-top: 30px;
     }
-    
+
     .channels-wrapper {
         width: 90%;
         background-color: #ffffff;
@@ -471,21 +471,21 @@ body {
         height: 80px;
         padding: 20px;
     }
-    
+
     .fb-logo {
         height: 80px;
         padding: 20px;
     }
-    
+
     .tk-logo {
         height: 80px;
     }
-    
+
     .in-logo {
         height: 80px;
         padding: 20px;
     }
-    
+
     .tw-logo {
         height: 80px;
         padding: 20px;
@@ -494,14 +494,14 @@ body {
     .sm-label {
         font-size: 12px;
     }
-    
-    .sub-count{
+
+    .sub-count {
         font-family: sans-serif;
         font-size: 12px;
         padding: 5px;
     }
-    
-    .sub-count:hover{
+
+    .sub-count:hover {
         font-size: 13px;
     }
 
@@ -515,41 +515,41 @@ body {
         margin-bottom: 40px;
         margin-top: 10px;
     }
-    
+
     .buttons {
         display: flex;
         justify-content: space-evenly;
         width: 80%;
         margin-left: 5px;
-    
+
     }
-    
+
     .groups-wrapper {
         margin: auto;
         width: 90%;
         background-color: #ffffff;
-        height: 60px;
+        height: 70px;
     }
-    
-    
+
+
     .wBtn {
         height: 60px;
         width: 120px;
         margin: 10px;
     }
-    
-    .note{
+
+    .note {
         margin-top: 15px;
     }
-    
-    .note-description{
+
+    .note-description {
         font-size: 12px;
         text-align: center;
         margin-bottom: 20px;
     }
 
 
-    .kpi-wrapper{
+    .kpi-wrapper {
         height: 450px;
     }
 
@@ -559,5 +559,5 @@ body {
         padding: 5px;
         margin: auto;
     }
-    
+
 }

@@ -5,7 +5,7 @@ body {
     width: 100%;
 }
 
-.page-wrapper{
+.page-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +13,7 @@ body {
     margin-top: 15vh;
 }
 
-.box{
+.box {
     background-color: #292C35;
     height: 40vh;
     width: 40vw;
@@ -22,7 +22,7 @@ body {
 }
 
 
-.page-title{
+.page-title {
     color: #292C35;
     font-size: 25px;
     font-family: sans-serif;
@@ -31,7 +31,7 @@ body {
     margin-top: 20px;
 }
 
-.login-title{
+.login-title {
     color: #ffffff;
     font-size: 16px;
     font-family: sans-serif;
@@ -42,7 +42,7 @@ body {
     text-transform: uppercase;
 }
 
-.box-content{
+.box-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,12 +51,11 @@ body {
 }
 
 
-.inputs{
+.inputs {
     width: 40%;
 }
 
-.loginBtn{
+.loginBtn {
     margin-top: 20px;
     width: 40%;
 }
-
