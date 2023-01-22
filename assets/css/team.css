@@ -35,7 +35,7 @@ body {
 
 
 /*Team Bar----------------------------------------------------------*/
-.ourteam-title {
+.ourTeam-title {
     font-family: sans-serif;
     text-align: center;
     color: #ffffff;
@@ -149,15 +149,3 @@ body {
         display: block;
 }
 
-@media (max-width:1080px) {
-    .featured-grid {
-        grid-template-columns: 50% 50%;
-    }
-}
-
-@media (max-width:768px) {
-    .featured-grid {
-        grid-template-columns: 50% 50%;
-    }
-
-}
