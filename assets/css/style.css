@@ -400,38 +400,38 @@ body {
     }
     
     .featured-grid .features {
-        height: 285px;
-        width: 200px;
+        height: 270px;
+        width: 180px;
         text-align: center;
-        padding: 10px;
+        padding: 5px;
         margin-bottom: 20px;
     }
     
     .feature-title {
-        font-size: 11px;
+        font-size: 10px;
         text-transform: uppercase;
         color: #ffffff;
         padding: 45px;
     }
     
     .member-pic {
-        height: 80px;
+        height: 70px;
         display: inline;
         margin-top: -30px;
         border: 4px #ffc153 solid;
     }
     
     .member-pic:hover {
-        height: 96px;
+        height: 85px;
     }
     
     .member-name {
         font-size: 12px;
-        padding: 10px;
+        padding: 5px;
     }
     
     .member-title {
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .member-email {
